@@ -32,10 +32,5 @@ public class app {
         System.out.println(B.age);
         System.out.println(B.id);
         System.out.println(B.nos);
-
-
-
-
-
     }
 }
