@@ -1,10 +1,15 @@
 public class Student {
-    //Attribute
-    public int id;
-    public int age;
-    public String name;
-    public int nos;
+    //Attribute  first they are public after that i do them private for making them perfect encapsulation
+    private int id;
+    private int age;
+    private String name;
+    private  int nos;
     private String gf;
+
+    //used for accessing this private attributes by using getter setter ..
+    public String getName(){
+        return this.name;
+    }
 
    //default ctor //attr. ->garbage   //ctor means constructor  //yeh by default hai humne isko koi parameter nahi die
     public Student(int id, int age, String name, int nos,String gf) {

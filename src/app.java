@@ -33,11 +33,16 @@ public class app {
 //        System.out.println(B.id);
 //        System.out.println(B.nos);
         Student A = new Student(1,12,"Aryan",3,"Tina");
-        System.out.println(A.name);
-        System.out.println(A.age);
-        System.out.println(A.id);
-        System.out.println(A.nos);
+//        System.out.println(A.name);
+//        System.out.println(A.age);
+//        System.out.println(A.id);
+//        System.out.println(A.nos);
 //        System.out.println(A.gf);
+        System.out.println(A.getName());//properly encapsulated
 
+        A.bunking();
+        A.study();
+        A.sleep();
+//        A.gfChatting();
     }
 }
