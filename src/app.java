@@ -38,11 +38,17 @@ public class app {
 //        System.out.println(A.id);
 //        System.out.println(A.nos);
 //        System.out.println(A.gf);
-        System.out.println(A.getName());//properly encapsulated
+//        System.out.println(A.getName());//properly encapsulated
 
-        A.bunking();
-        A.study();
-        A.sleep();
+        System.out.println(A.getAge());
+
+        A.setAge(157);
+
+        System.out.println(A.getAge());
+//
+//        A.bunking();
+//        A.study();
+//        A.sleep();
 //        A.gfChatting();
     }
 }

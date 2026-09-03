@@ -10,6 +10,20 @@ public class Student {
     public String getName(){
         return this.name;
     }
+    public int getAge(){
+        return this.age;
+    }
+
+    public void setAge(int a) {
+        //extra layer of authentication (taaki koi invalid value na de ab koi 5000 age to dal dega to yeh galat cheez accept to hogi ni )
+        if (age < 100) {
+            this.age = a;
+            return;
+        }
+     else{
+            System.out.println("not a valid age ");
+        }
+    }
 
    //default ctor //attr. ->garbage   //ctor means constructor  //yeh by default hai humne isko koi parameter nahi die
     public Student(int id, int age, String name, int nos,String gf) {
