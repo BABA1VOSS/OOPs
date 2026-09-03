@@ -11,11 +11,11 @@ public class app {
 //        A.name = "Ranu";
 //        A.nos = 5;
 //        ab parameterized ctor called karta hu mein
-        Student A = new Student(1,12,"Aryan",3);
+//        Student A = new Student(1,12,"Aryan",3,"Tina");
 //        System.out.println(A.name);
 //        System.out.println(A.age);
 //        System.out.println(A.id);
-//        System.out.println(A.nos);
+//       System.out.println(A.nos);
 
 //        A.bunking();
 //        A.study();
@@ -27,10 +27,17 @@ public class app {
         //copy ctor
 //        Student B = new Student(A);// abhi to error dikhayega hi kyunki isme sbhi copy ctor nahi hai              bana hai student wali file mein , pehle wo banaunga uske bad hi mein usko use karunga
 //    isme bhi hum use karenge khud se hi jab hum ek source object banayenge
-      Student B = new Student(A);
-        System.out.println(B.name);
-        System.out.println(B.age);
-        System.out.println(B.id);
-        System.out.println(B.nos);
+//      Student B = new Student(A);
+//        System.out.println(B.name);
+//        System.out.println(B.age);
+//        System.out.println(B.id);
+//        System.out.println(B.nos);
+        Student A = new Student(1,12,"Aryan",3,"Tina");
+        System.out.println(A.name);
+        System.out.println(A.age);
+        System.out.println(A.id);
+        System.out.println(A.nos);
+//        System.out.println(A.gf);
+
     }
 }

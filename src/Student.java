@@ -4,9 +4,10 @@ public class Student {
     public int age;
     public String name;
     public int nos;
+    private String gf;
 
    //default ctor //attr. ->garbage   //ctor means constructor  //yeh by default hai humne isko koi parameter nahi die
-    public Student(int id, int age, String name, int nos) {
+    public Student(int id, int age, String name, int nos,String gf) {
         //jaise ki yeh sab ctor hai yaa ni ki abhi under construction hai to iska matlab hua object abhi ban rha hai , banne ke bad execute hoga
         //mein bante bante attribute dalunga taki wo call ho jaye or jab pura ho jaye to values dikh jajye iske lie hum use karte hai this.(___) =_______ jo bhi likha hoga
         //parameterized ctor
@@ -15,6 +16,7 @@ public class Student {
         this.name = name;
         this.age = age;
         this.nos = nos;
+        this.gf = gf;
     }
 
         // copy ctor ki baari aagayi hai ab.. jisme hum banayenge ek source object
@@ -39,5 +41,7 @@ public class Student {
     }
 
 
-
+    private void gfChatting(){
+        System.out.println(name + "gfChatting");
+    }
 }
