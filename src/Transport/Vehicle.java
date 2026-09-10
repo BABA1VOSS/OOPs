@@ -7,7 +7,7 @@ public class Vehicle {
 
     public int noOfTyres;
 
-    Vehicle (){
+    public Vehicle (){
         this.name = "";
         this.model= "";
         this.noOfTyres= -1;
@@ -25,7 +25,7 @@ public class Vehicle {
 
 
     void stopEngine(){
-        System.out.printf("Engine is starting of %s : %s\n", name,model);
+        System.out.printf("Engine is stopping of %s : %s\n", name,model);
     }
 
 
