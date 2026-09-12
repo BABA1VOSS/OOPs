@@ -1,7 +1,11 @@
 package Transport;
 
 public class Vehicle {
-    public String name;
+//    public String name;
+    protected String name;
+//    private String name;
+// private kahi bhi accessible nahi hoga !
+    // sirf mujhe pata hai kya protected hai or kya nahi
 
     public String model;
 
