@@ -46,8 +46,8 @@
 //        b.sleep();
 //    }
 //    public static void main(String[] args) {
-////      b.eat();
-////      b.fly();
+//      b.eat();
+//    b.fly();
 //
 //        //yeh polymorphism wala tareeke se call kia hai humne ab
 //        doBirdStuff(new Sparrow());
