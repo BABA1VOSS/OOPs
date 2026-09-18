@@ -5,6 +5,9 @@ abstract class Bird{
     //pehle template banegi
     abstract void fly();
         abstract void eat();
+        public void sleep(){
+            System.out.println("bird sleeping");
+        }
 }
 class Sparrow extends Bird {
 
@@ -37,6 +40,7 @@ public class Main{
     public static void doBirdStuff(Bird b) {
         b.eat();
         b.fly();
+        b.sleep();
     }
     public static void main(String[] args) {
 //      b.eat();
